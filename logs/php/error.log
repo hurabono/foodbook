@@ -1,0 +1,80 @@
+[03-Aug-2021 18:43:22 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\Users\heesu\Local Sites\foodbook\app\public\wp-content\plugins\wpforms-lite\includes\fields\class-email.php on line 758
+[03-Aug-2021 18:43:22 UTC] PHP Stack trace:
+[03-Aug-2021 18:43:22 UTC] PHP   1. {main}() C:\Users\heesu\Local Sites\foodbook\app\public\wp-admin\admin-ajax.php:0
+[03-Aug-2021 18:43:22 UTC] PHP   2. do_action() C:\Users\heesu\Local Sites\foodbook\app\public\wp-admin\admin-ajax.php:187
+[03-Aug-2021 18:43:22 UTC] PHP   3. WP_Hook->do_action() C:\Users\heesu\Local Sites\foodbook\app\public\wp-includes\plugin.php:470
+[03-Aug-2021 18:43:22 UTC] PHP   4. WP_Hook->apply_filters() C:\Users\heesu\Local Sites\foodbook\app\public\wp-includes\class-wp-hook.php:327
+[03-Aug-2021 18:43:22 UTC] PHP   5. genesis_do_onboarding_process() C:\Users\heesu\Local Sites\foodbook\app\public\wp-includes\class-wp-hook.php:303
+[03-Aug-2021 18:43:22 UTC] PHP   6. genesis_onboarding_import_content() C:\Users\heesu\Local Sites\foodbook\app\public\wp-content\themes\genesis\lib\admin\onboarding\ajax-functions.php:101
+[03-Aug-2021 18:43:22 UTC] PHP   7. do_action() C:\Users\heesu\Local Sites\foodbook\app\public\wp-content\themes\genesis\lib\functions\onboarding.php:609
+[03-Aug-2021 18:43:22 UTC] PHP   8. WP_Hook->do_action() C:\Users\heesu\Local Sites\foodbook\app\public\wp-includes\plugin.php:470
+[03-Aug-2021 18:43:22 UTC] PHP   9. WP_Hook->apply_filters() C:\Users\heesu\Local Sites\foodbook\app\public\wp-includes\class-wp-hook.php:327
+[03-Aug-2021 18:43:22 UTC] PHP  10. studiopress_insert_contact_form() C:\Users\heesu\Local Sites\foodbook\app\public\wp-includes\class-wp-hook.php:303
+[03-Aug-2021 18:43:22 UTC] PHP  11. studiopress_maybe_create_wpforms_form() C:\Users\heesu\Local Sites\foodbook\app\public\wp-content\themes\genesis-sample-master\lib\wpforms.php:80
+[03-Aug-2021 18:43:22 UTC] PHP  12. WPForms_Form_Handler->add() C:\Users\heesu\Local Sites\foodbook\app\public\wp-content\themes\genesis-sample-master\lib\wpforms.php:58
+[03-Aug-2021 18:43:22 UTC] PHP  13. WPForms_Form_Handler->update() C:\Users\heesu\Local Sites\foodbook\app\public\wp-content\plugins\wpforms-lite\includes\class-form.php:339
+[03-Aug-2021 18:43:22 UTC] PHP  14. apply_filters() C:\Users\heesu\Local Sites\foodbook\app\public\wp-content\plugins\wpforms-lite\includes\class-form.php:416
+[03-Aug-2021 18:43:22 UTC] PHP  15. WP_Hook->apply_filters() C:\Users\heesu\Local Sites\foodbook\app\public\wp-includes\plugin.php:189
+[03-Aug-2021 18:43:22 UTC] PHP  16. WPForms_Field_Email->save_form_args() C:\Users\heesu\Local Sites\foodbook\app\public\wp-includes\class-wp-hook.php:303
+[03-Aug-2021 19:12:05 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'genesis_sample_social_default_styles' not found or invalid function name in C:\Users\heesu\Local Sites\foodbook\app\public\wp-includes\class-wp-hook.php on line 303
+[03-Aug-2021 19:12:05 UTC] PHP Stack trace:
+[03-Aug-2021 19:12:05 UTC] PHP   1. {main}() C:\Users\heesu\Local Sites\foodbook\app\public\index.php:0
+[03-Aug-2021 19:12:05 UTC] PHP   2. require() C:\Users\heesu\Local Sites\foodbook\app\public\index.php:17
+[03-Aug-2021 19:12:05 UTC] PHP   3. require_once() C:\Users\heesu\Local Sites\foodbook\app\public\wp-blog-header.php:13
+[03-Aug-2021 19:12:05 UTC] PHP   4. require_once() C:\Users\heesu\Local Sites\foodbook\app\public\wp-load.php:50
+[03-Aug-2021 19:12:05 UTC] PHP   5. require_once() C:\Users\heesu\Local Sites\foodbook\app\public\wp-config.php:77
+[03-Aug-2021 19:12:05 UTC] PHP   6. do_action() C:\Users\heesu\Local Sites\foodbook\app\public\wp-settings.php:579
+[03-Aug-2021 19:12:05 UTC] PHP   7. WP_Hook->do_action() C:\Users\heesu\Local Sites\foodbook\app\public\wp-includes\plugin.php:470
+[03-Aug-2021 19:12:05 UTC] PHP   8. WP_Hook->apply_filters() C:\Users\heesu\Local Sites\foodbook\app\public\wp-includes\class-wp-hook.php:327
+[03-Aug-2021 19:12:05 UTC] PHP   9. wp_widgets_init() C:\Users\heesu\Local Sites\foodbook\app\public\wp-includes\class-wp-hook.php:303
+[03-Aug-2021 19:12:05 UTC] PHP  10. do_action() C:\Users\heesu\Local Sites\foodbook\app\public\wp-includes\widgets.php:1809
+[03-Aug-2021 19:12:05 UTC] PHP  11. WP_Hook->do_action() C:\Users\heesu\Local Sites\foodbook\app\public\wp-includes\plugin.php:470
+[03-Aug-2021 19:12:05 UTC] PHP  12. WP_Hook->apply_filters() C:\Users\heesu\Local Sites\foodbook\app\public\wp-includes\class-wp-hook.php:327
+[03-Aug-2021 19:12:05 UTC] PHP  13. ssiw_load_widget() C:\Users\heesu\Local Sites\foodbook\app\public\wp-includes\class-wp-hook.php:303
+[03-Aug-2021 19:12:05 UTC] PHP  14. register_widget() C:\Users\heesu\Local Sites\foodbook\app\public\wp-content\plugins\simple-social-icons\simple-social-icons.php:606
+[03-Aug-2021 19:12:05 UTC] PHP  15. WP_Widget_Factory->register() C:\Users\heesu\Local Sites\foodbook\app\public\wp-includes\widgets.php:115
+[03-Aug-2021 19:12:05 UTC] PHP  16. Simple_Social_Icons_Widget->__construct() C:\Users\heesu\Local Sites\foodbook\app\public\wp-includes\class-wp-widget-factory.php:61
+[03-Aug-2021 19:12:05 UTC] PHP  17. apply_filters() C:\Users\heesu\Local Sites\foodbook\app\public\wp-content\plugins\simple-social-icons\simple-social-icons.php:85
+[03-Aug-2021 19:12:05 UTC] PHP  18. WP_Hook->apply_filters() C:\Users\heesu\Local Sites\foodbook\app\public\wp-includes\plugin.php:189
+[03-Aug-2021 19:12:07 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'genesis_sample_social_default_styles' not found or invalid function name in C:\Users\heesu\Local Sites\foodbook\app\public\wp-includes\class-wp-hook.php on line 303
+[03-Aug-2021 19:12:07 UTC] PHP Stack trace:
+[03-Aug-2021 19:12:07 UTC] PHP   1. {main}() C:\Users\heesu\Local Sites\foodbook\app\public\index.php:0
+[03-Aug-2021 19:12:07 UTC] PHP   2. require() C:\Users\heesu\Local Sites\foodbook\app\public\index.php:17
+[03-Aug-2021 19:12:07 UTC] PHP   3. require_once() C:\Users\heesu\Local Sites\foodbook\app\public\wp-blog-header.php:13
+[03-Aug-2021 19:12:07 UTC] PHP   4. require_once() C:\Users\heesu\Local Sites\foodbook\app\public\wp-load.php:50
+[03-Aug-2021 19:12:07 UTC] PHP   5. require_once() C:\Users\heesu\Local Sites\foodbook\app\public\wp-config.php:77
+[03-Aug-2021 19:12:07 UTC] PHP   6. do_action() C:\Users\heesu\Local Sites\foodbook\app\public\wp-settings.php:579
+[03-Aug-2021 19:12:07 UTC] PHP   7. WP_Hook->do_action() C:\Users\heesu\Local Sites\foodbook\app\public\wp-includes\plugin.php:470
+[03-Aug-2021 19:12:07 UTC] PHP   8. WP_Hook->apply_filters() C:\Users\heesu\Local Sites\foodbook\app\public\wp-includes\class-wp-hook.php:327
+[03-Aug-2021 19:12:07 UTC] PHP   9. wp_widgets_init() C:\Users\heesu\Local Sites\foodbook\app\public\wp-includes\class-wp-hook.php:303
+[03-Aug-2021 19:12:07 UTC] PHP  10. do_action() C:\Users\heesu\Local Sites\foodbook\app\public\wp-includes\widgets.php:1809
+[03-Aug-2021 19:12:07 UTC] PHP  11. WP_Hook->do_action() C:\Users\heesu\Local Sites\foodbook\app\public\wp-includes\plugin.php:470
+[03-Aug-2021 19:12:07 UTC] PHP  12. WP_Hook->apply_filters() C:\Users\heesu\Local Sites\foodbook\app\public\wp-includes\class-wp-hook.php:327
+[03-Aug-2021 19:12:07 UTC] PHP  13. ssiw_load_widget() C:\Users\heesu\Local Sites\foodbook\app\public\wp-includes\class-wp-hook.php:303
+[03-Aug-2021 19:12:07 UTC] PHP  14. register_widget() C:\Users\heesu\Local Sites\foodbook\app\public\wp-content\plugins\simple-social-icons\simple-social-icons.php:606
+[03-Aug-2021 19:12:07 UTC] PHP  15. WP_Widget_Factory->register() C:\Users\heesu\Local Sites\foodbook\app\public\wp-includes\widgets.php:115
+[03-Aug-2021 19:12:07 UTC] PHP  16. Simple_Social_Icons_Widget->__construct() C:\Users\heesu\Local Sites\foodbook\app\public\wp-includes\class-wp-widget-factory.php:61
+[03-Aug-2021 19:12:07 UTC] PHP  17. apply_filters() C:\Users\heesu\Local Sites\foodbook\app\public\wp-content\plugins\simple-social-icons\simple-social-icons.php:85
+[03-Aug-2021 19:12:07 UTC] PHP  18. WP_Hook->apply_filters() C:\Users\heesu\Local Sites\foodbook\app\public\wp-includes\plugin.php:189
+[03-Aug-2021 19:12:07 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Users\heesu\Local Sites\foodbook\app\public\wp-includes\class-wp-hook.php:303) in C:\Users\heesu\Local Sites\foodbook\app\public\wp-includes\pluggable.php on line 1340
+[03-Aug-2021 19:12:07 UTC] PHP Stack trace:
+[03-Aug-2021 19:12:07 UTC] PHP   1. {main}() C:\Users\heesu\Local Sites\foodbook\app\public\index.php:0
+[03-Aug-2021 19:12:07 UTC] PHP   2. require() C:\Users\heesu\Local Sites\foodbook\app\public\index.php:17
+[03-Aug-2021 19:12:07 UTC] PHP   3. require_once() C:\Users\heesu\Local Sites\foodbook\app\public\wp-blog-header.php:19
+[03-Aug-2021 19:12:07 UTC] PHP   4. do_action() C:\Users\heesu\Local Sites\foodbook\app\public\wp-includes\template-loader.php:45
+[03-Aug-2021 19:12:07 UTC] PHP   5. WP_Hook->do_action() C:\Users\heesu\Local Sites\foodbook\app\public\wp-includes\plugin.php:470
+[03-Aug-2021 19:12:07 UTC] PHP   6. WP_Hook->apply_filters() C:\Users\heesu\Local Sites\foodbook\app\public\wp-includes\class-wp-hook.php:327
+[03-Aug-2021 19:12:07 UTC] PHP   7. do_favicon() C:\Users\heesu\Local Sites\foodbook\app\public\wp-includes\class-wp-hook.php:303
+[03-Aug-2021 19:12:07 UTC] PHP   8. wp_redirect() C:\Users\heesu\Local Sites\foodbook\app\public\wp-includes\functions.php:1694
+[03-Aug-2021 19:12:07 UTC] PHP   9. header() C:\Users\heesu\Local Sites\foodbook\app\public\wp-includes\pluggable.php:1340
+[03-Aug-2021 19:12:07 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Users\heesu\Local Sites\foodbook\app\public\wp-includes\class-wp-hook.php:303) in C:\Users\heesu\Local Sites\foodbook\app\public\wp-includes\pluggable.php on line 1343
+[03-Aug-2021 19:12:07 UTC] PHP Stack trace:
+[03-Aug-2021 19:12:07 UTC] PHP   1. {main}() C:\Users\heesu\Local Sites\foodbook\app\public\index.php:0
+[03-Aug-2021 19:12:07 UTC] PHP   2. require() C:\Users\heesu\Local Sites\foodbook\app\public\index.php:17
+[03-Aug-2021 19:12:07 UTC] PHP   3. require_once() C:\Users\heesu\Local Sites\foodbook\app\public\wp-blog-header.php:19
+[03-Aug-2021 19:12:07 UTC] PHP   4. do_action() C:\Users\heesu\Local Sites\foodbook\app\public\wp-includes\template-loader.php:45
+[03-Aug-2021 19:12:07 UTC] PHP   5. WP_Hook->do_action() C:\Users\heesu\Local Sites\foodbook\app\public\wp-includes\plugin.php:470
+[03-Aug-2021 19:12:07 UTC] PHP   6. WP_Hook->apply_filters() C:\Users\heesu\Local Sites\foodbook\app\public\wp-includes\class-wp-hook.php:327
+[03-Aug-2021 19:12:07 UTC] PHP   7. do_favicon() C:\Users\heesu\Local Sites\foodbook\app\public\wp-includes\class-wp-hook.php:303
+[03-Aug-2021 19:12:07 UTC] PHP   8. wp_redirect() C:\Users\heesu\Local Sites\foodbook\app\public\wp-includes\functions.php:1694
+[03-Aug-2021 19:12:07 UTC] PHP   9. header() C:\Users\heesu\Local Sites\foodbook\app\public\wp-includes\pluggable.php:1343
